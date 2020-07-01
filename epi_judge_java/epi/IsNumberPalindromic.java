@@ -9,6 +9,9 @@ public class IsNumberPalindromic {
   }
 
   public static void main(String[] args) {
+    double logarithem = Math.log10(100);
+    System.out.println(logarithem);
+
     System.exit(
         GenericTest
             .runFromAnnotations(args, "IsNumberPalindromic.java",
